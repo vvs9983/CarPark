@@ -61,3 +61,10 @@ Run tests with:
   *  400 Bad Request -> Missing/Invalid body
   *  404 Not Found -> Vehicle not parked
   *  409 Conflict -> No free spots/Duplicate allocation
+
+#
+
+**Assumprions**
+ * One vehicle registration can occupy one spot at a time
+ * Time calculations are in UTC
+ * Charges are rounded to 2 decimal places.
